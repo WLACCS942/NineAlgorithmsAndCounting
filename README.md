@@ -2,6 +2,7 @@
 Python implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun.  
 
 I. Algorithms  
+
     1. Algorithms from the Textbook:  
     
     Name:                                                                 File:  
@@ -18,7 +19,6 @@ I. Algorithms
     
     A Recursive Algorithm for Fibonacci Numbers (Algorithm 5.7, pg. 365)  Fibonacci.py  
     
-    
     2.Algorithms not from the TextBook:  
     
     Name:                              File:  
@@ -31,6 +31,7 @@ I. Algorithms
     
 
 II. How to Run  
+
     All files can be executed from the command line and python 3.5 shell.  
     
     HOW:  
