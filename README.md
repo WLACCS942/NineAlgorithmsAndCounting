@@ -2,7 +2,7 @@
 Python implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun.  
 
 ## I. Algorithms  
-> 1. Algorithms from the Textbook:  
+* Algorithms from the Textbook:  
 
 <table>
     <tr>
@@ -35,7 +35,7 @@ Python implementations of several algorithms from Rosen's Discrete Mathematics T
     </tr>
 </table>
     
-> 2.Algorithms not from the Textbook:  
+* 2.Algorithms not from the Textbook:  
 
 <table>
     <tr>
