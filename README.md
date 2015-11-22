@@ -1,7 +1,7 @@
 # NineAlgorithmsAndCounting
 Python 3.5 implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun. \*Needs Python 3.5\*
 
-## I. Algorithms  
+## I. Algorithms: Note that the actual, relevant algorithm is usually below the 'main()' function. Exception and command-line argument handling are not part of the actual algorithm itself but are implementation details allowing for the code to perform as intended and be usable on the command line.
 * Algorithms from the Textbook:  
 
 <table>
