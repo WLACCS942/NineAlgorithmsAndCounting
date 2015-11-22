@@ -1,3 +1,4 @@
+#Helper module used by other files
 typeList = [int, float, complex]
 def matchNumberArraySizes(a,b):
 	if any(type(i) not in typeList for i in a) or any(type(i) not in typeList for i in b):

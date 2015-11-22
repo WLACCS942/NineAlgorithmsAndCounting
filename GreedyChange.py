@@ -1,6 +1,7 @@
 from Helper import *
 import sys, getopt
-def main():
+
+def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
 		opts,args = getopt.getopt(sys.argv[1:], 'hp')
 		for opt in opts:
@@ -9,9 +10,11 @@ def main():
 					raise getopt.GetoptError('')
 				print(greedyChange([int(i) for i in (args[0].strip('[]')).split(',')],int(args[1])))
 			elif(opt[0] == '-h'):
-				print("usage: GreedyChange.py -p <array of strictly descending +Z> <^-Z>")
+				print("usage: GreedyChange.py -p <array of strictly descending +Z> <n: ^-Z>")
+				print("-p: print output. Arguments MUST come after this switch.")
+				print("-h: help")
 	except (getopt.GetoptError, ValueError):
-		print("Error, usage is: GreedyChange.py -p <array of strictly descending +Z> <^-Z>")
+		print("Error, usage is: GreedyChange.py -p <array of strictly descending +Z> <n: ^-Z>")
 def greedyChange(c,n):
 	if any(not isPositiveInt(i) for i in c) or isNegativeInt(n):
 		raise TypeError("Coin array must have positive integers and n must be a non-negative integer.")
