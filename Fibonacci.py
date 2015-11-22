@@ -14,7 +14,7 @@ def main():
 def fib(n):
 	if type(n) is not int or n < 2: 
 		raise TypeError('Argument must be an integer greater or equal to 2')
-	fib = lambda a,b,n: fib(b,a+b,n-1) if n != 1 else b
-	return fib(0,1,n)
+	fib = lambda n: 0 if n == 0 else 1 if n == 1 else fib(n - 1) + fib(n - 2)
+	return fib(n)
 if __name__ == "__main__":
     main()
