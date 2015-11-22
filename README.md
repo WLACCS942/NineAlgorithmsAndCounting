@@ -3,7 +3,8 @@ Python implementations of several algorithms from Rosen's Discrete Mathematics T
 
 I. Algorithms  
 
->1. Algorithms from the Textbook:  
+1. Algorithms from the Textbook:  
+
 <table>
     <tr>
         <th>Name:</th>                                                              
@@ -33,8 +34,10 @@ I. Algorithms
         <td>A Recursive Algorithm for Fibonacci Numbers (Algorithm 5.7, pg. 365)</td>
         <td>Fibonacci.py</td>
     </tr>
+</table>
     
     2.Algorithms not from the TextBook:  
+<table>
     <tr>
         <th>Name:</th>                       
         <th>File:</th>
@@ -51,6 +54,7 @@ I. Algorithms
         <td>Modular Inverse</td>             
         <td>ModularInverse.py</td> 
     </tr>
+</table>
     
 
 II. How to Run  
