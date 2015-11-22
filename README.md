@@ -1,10 +1,10 @@
 # NineAlgorithmsAndCounting
-Python implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun.
+Python implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun.  
 
-I. Algorithms
-    1. Algorithms from the Textbook:
-    Name:                                                                 File:
-    Greedy Change-Making Algorithm (Algorithm 3.1.6, pg.199)              GreedyChange.py 
+>I. Algorithms  
+>    1. Algorithms from the Textbook:
+>    Name:                                                                 File:
+>    Greedy Change-Making Algorithm (Algorithm 3.1.6, pg.199)              GreedyChange.py 
     Constructing Base b Expansions (Algorithm 4.2.1, pg.249)              BaseExpansion.py
     Addition of Integers (Algorithm 4.2.2, pg. 251)                       BinaryAddition.py
     Modular Exponentiation (Algorithm 4.2.5, pg. 254)                     BinaryModularExponentiation.py
