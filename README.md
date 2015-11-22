@@ -3,7 +3,7 @@ Python 3.5 implementations of several algorithms from Rosen's Discrete Mathemati
 
 ## I. Algorithms: 
 
-### Note: In each file, the actual, relevant algorithm is usually below the 'main()' function. Exception handling and 'main()' are not part of the actual algorithm itself but are implementation details allowing for the code to perform as intended and be usable on the command line and python 3.5 shell.
+### Note: In each file, the actually relevant algorithm is usually below the 'main()' function. Exception handling and 'main()' are not part of the actual algorithm itself but are implementation details allowing for the code to perform as intended and be usable on the command line and python 3.5 shell.
 * Algorithms from the Textbook:  
 
 <table>
