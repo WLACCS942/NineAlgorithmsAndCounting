@@ -36,7 +36,8 @@ I. Algorithms
     </tr>
 </table>
     
-    2.Algorithms not from the TextBook:  
+2.Algorithms not from the TextBook:  
+
 <table>
     <tr>
         <th>Name:</th>                       
