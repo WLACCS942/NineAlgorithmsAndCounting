@@ -65,10 +65,11 @@ HOW:
     
 1. Command line (Windows):  
     1. Change to local directory.  
-    2. Input 
+    2. Input
         $python.exe -i FileName.py -h [To see proper usage]  
     3. Exit python.exe with 
-        $Ctrl+C and run 2 again with proper usage.  
+        $Ctrl+C 
+    and run 2 again with proper usage.  
         
 2. Python 3.5 shell:  
     
