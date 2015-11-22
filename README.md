@@ -1,5 +1,5 @@
 # NineAlgorithmsAndCounting
-Python implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun.  
+Python 3.5 implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun. \*Needs Python 3.5\*
 
 ## I. Algorithms  
 * Algorithms from the Textbook:  
