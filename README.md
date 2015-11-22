@@ -1,7 +1,7 @@
 # NineAlgorithmsAndCounting
 Python implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun.  
 
-I. Algorithms  
+## I. Algorithms  
 
 1. Algorithms from the Textbook:  
 
@@ -58,7 +58,7 @@ I. Algorithms
 </table>
     
 
-II. How to Run  
+## II. How to Run  
 
 All files can be executed from the command line and python 3.5 shell.  
     
