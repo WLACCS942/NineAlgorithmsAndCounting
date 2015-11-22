@@ -78,4 +78,4 @@ HOW:
         
     $from FileName import Function [leave out the .py]  
         
-    $function(args)  
+    $Function(args)  
