@@ -24,9 +24,9 @@ def modExpo(b,n,m): #core algorithm
 	if any(i not in (0,1) for i in n):
 		raise ValueError("2nd argument must be a binary sequence.")
 	x = 1
-	length = len(n) - 1
+	end = len(n) - 1
 	power = b % m
-	for j in range(length,-1,-1):
+	for j in range(end,-1,-1):
 		if n[j] == 1:
 			x = (x * power) % m
 		power = (power ** 2) % m
