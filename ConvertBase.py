@@ -19,7 +19,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Use -h for help.")
 
 def convert(a,b,nb): #core algorithm
-	return baseExpansion(toDecimal(a,b),nb)
+	return baseExpansion(toDecimal(a,b),nb) if nb != 10 else toDecimal(a,b)
 
 if __name__ == "__main__": #Invoke main when program is run
     main() 
