@@ -64,7 +64,7 @@ Python 3.5 implementations of several algorithms from Rosen's Discrete Mathemati
 HOW:  
     
 1. Command line (Windows):  
-    1. Change to local directory.  
+    1. Change to local repo clone directory.  
     2. Input '$python.exe -i FileName.py -h' [To see proper usage]  
     3. Exit python.exe with '$Ctrl+C' and run 2 again with proper usage.  
         
@@ -72,7 +72,7 @@ HOW:
     
     $import os  
         
-    $os.chdir("C:/SomeDirectory") [Unix syntax]  
+    $os.chdir("C:/RepoCloneDirectory") [Unix syntax]  
         
     $os.getcwd() [Check to make sure you're in the right directory]  
         
