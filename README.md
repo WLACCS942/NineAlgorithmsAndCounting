@@ -45,6 +45,14 @@ Python 3.5 implementations of several algorithms from __Discrete Mathematics and
         <th>File:</th>
     </tr>
     <tr>
+        <td>Change Base of Number</td>             
+        <td>ConvertBase.py</td> 
+    </tr>
+    <tr>
+        <td>Convert Base to Decimal</td>             
+        <td>ToDecimal.py</td> 
+    </tr>
+    <tr>
         <td>Extended Euclidean Algorithm</td>   
         <td>ExtendedEuclideanAlgorithm.py</td>  
     </tr>
