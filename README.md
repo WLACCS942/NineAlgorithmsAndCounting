@@ -60,26 +60,23 @@ I. Algorithms
 
 II. How to Run  
 
-    All files can be executed from the command line and python 3.5 shell.  
+All files can be executed from the command line and python 3.5 shell.  
     
-    HOW:  
+HOW:  
     
-    >1. Command line (Windows):  
+1. Command line (Windows):  
+    1. Change to local directory.  
+    2. Input $python.exe -i FileName.py -h [To see proper usage]  
+    3. Exit python.exe with $Ctrl+C and run 2 again with proper usage.  
+        
+2. Python 3.5 shell:  
     
-    >    1. Change to local directory.  
+    $import os  
         
-    >    2. Input $python.exe -i FileName.py -h [To see proper usage]  
+    $os.chdir("C:/SomeDirectory") [Unix syntax]  
         
-   >     3. Exit python.exe with $Ctrl+C and run 2 again with proper usage.  
+    $os.getcwd() [Check to make sure you're in the right directory]  
         
-    >2. Python 3.5 shell:  
-    
-        $import os  
+    $from FileName import Function [leave out the .py]  
         
-        $os.chdir("C:/SomeDirectory") [Unix syntax]  
-        
-        $os.getcwd() [Check to make sure you're in the right directory]  
-        
-        $from FileName import Function [leave out the .py]  
-        
-        $function(args)  
+    $function(args)  
