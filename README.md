@@ -3,31 +3,54 @@ Python implementations of several algorithms from Rosen's Discrete Mathematics T
 
 I. Algorithms  
 
-    1. Algorithms from the Textbook:  
-    
-    Name:                                                                 File:  
-    
-    Greedy Change-Making Algorithm (Algorithm 3.1.6, pg.199)              GreedyChange.py   
-    
-    Constructing Base b Expansions (Algorithm 4.2.1, pg.249)              BaseExpansion.py  
-    
-    Addition of Integers (Algorithm 4.2.2, pg. 251)                       BinaryAddition.py  
-    
-    Modular Exponentiation (Algorithm 4.2.5, pg. 254)                     BinaryModularExponentiation.py  
-    
-    The Euclidean Algorithm (a.k.a gcd) (Algorithm 4.3.1, pg. 269)        EuclideanAlgorithm.py  
-    
-    A Recursive Algorithm for Fibonacci Numbers (Algorithm 5.7, pg. 365)  Fibonacci.py  
+>1. Algorithms from the Textbook:  
+<table>
+    <tr>
+        <th>Name:</th>                                                              
+        <th>File:</th>
+    </tr>
+    <tr>
+        <td>Greedy Change-Making Algorithm (Algorithm 3.1.6, pg.199)</td>
+        <td>GreedyChange.py</td>
+    </tr>
+    <tr>
+        <td>Constructing Base b Expansions (Algorithm 4.2.1, pg.249)              
+        <td>BaseExpansion.py</td>
+    </tr>
+    <tr>
+        <td>Addition of Integers (Algorithm 4.2.2, pg. 251)</td>
+        <td>BinaryAddition.py</td> 
+    </tr>
+    <tr>
+        <td>Modular Exponentiation (Algorithm 4.2.5, pg. 254)</td>
+        <td>BinaryModularExponentiation.py</td> 
+    </tr>
+    <tr>
+        <td>The Euclidean Algorithm (a.k.a gcd) (Algorithm 4.3.1, pg. 269)</td>  
+        <td>EuclideanAlgorithm.py</td> 
+    </tr>
+    <tr>
+        <td>A Recursive Algorithm for Fibonacci Numbers (Algorithm 5.7, pg. 365)</td>
+        <td>Fibonacci.py</td>
+    </tr>
     
     2.Algorithms not from the TextBook:  
-    
-    Name:                              File:  
-    
-    Extended Euclidean Algorithm       ExtendedEuclideanAlgorithm.py  
-    
-    Lowest Common Multiple (a.k.a lcm) lcm.py  
-    
-    Modular Inverse                    ModularInverse.py  
+    <tr>
+        <th>Name:</th>                       
+        <th>File:</th>
+    </tr>
+    <tr>
+        <td>Extended Euclidean Algorithm</td>   
+        <td>ExtendedEuclideanAlgorithm.py</td>  
+    </tr>
+    <tr>
+        <td>Lowest Common Multiple (a.k.a lcm)</td> 
+        <td>lcm.py</td>
+    </tr>
+    <tr>
+        <td>Modular Inverse</td>             
+        <td>ModularInverse.py</td> 
+    </tr>
     
 
 II. How to Run  
@@ -36,15 +59,15 @@ II. How to Run
     
     HOW:  
     
-    1. Command line (Windows):  
+    >1. Command line (Windows):  
     
-        1. Change to local directory.  
+    >    1. Change to local directory.  
         
-        2. Input $python.exe -i FileName.py -h [To see proper usage]  
+    >    2. Input $python.exe -i FileName.py -h [To see proper usage]  
         
-        3. Exit python.exe with $Ctrl+C and run 2 again with proper usage.  
+   >     3. Exit python.exe with $Ctrl+C and run 2 again with proper usage.  
         
-    2. Python 3.5 shell:  
+    >2. Python 3.5 shell:  
     
         $import os  
         
