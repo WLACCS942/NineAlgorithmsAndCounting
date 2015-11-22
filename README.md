@@ -1,7 +1,7 @@
 # NineAlgorithmsAndCounting
 Python implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun.
 I. Algorithms
-    Algorithms from the Textbook:
+    1. Algorithms from the Textbook:
     Name:                                                                 File:
     Greedy Change-Making Algorithm (Algorithm 3.1.6, pg.199)              GreedyChange.py 
     Constructing Base b Expansions (Algorithm 4.2.1, pg.249)              BaseExpansion.py
@@ -9,8 +9,8 @@ I. Algorithms
     Modular Exponentiation (Algorithm 4.2.5, pg. 254)                     BinaryModularExponentiation.py
     The Euclidean Algorithm (a.k.a gcd) (Algorithm 4.3.1, pg. 269)        EuclideanAlgorithm.py
     A Recursive Algorithm for Fibonacci Numbers (Algorithm 5.7, pg. 365)  Fibonacci.py
-
-    Algorithms not from the TextBook:
+    
+    2.Algorithms not from the TextBook:
     Name:                              File:
     Extended Euclidean Algorithm       ExtendedEuclideanAlgorithm.py
     Lowest Common Multiple (a.k.a lcm) lcm.py
