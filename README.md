@@ -1,10 +1,10 @@
 # NineAlgorithmsAndCounting
-Python 3.5 implementations of several algorithms from Rosen's Discrete Mathematics Textbook, along with some extra algorithms for fun. \*Needs Python 3.5\*
+Python 3.5 implementations of several algorithms from __Discrete Mathematics and its Applications, 7th ed.__, by Kenneth H. Rosen. There are also some extra algorithms for fun. __*Needs Python 3.5*__
 
 ## I. Algorithms: 
 
 ### Note: In each file, the actually relevant algorithm is usually below the 'main()' function. Exception handling and 'main()' are not part of the actual algorithm itself but are implementation details allowing for the code to perform as intended and be usable on the command line and python 3.5 shell.
-* Algorithms from the Textbook:  
+* __Algorithms from the Textbook:__  
 
 <table>
     <tr>
@@ -37,7 +37,7 @@ Python 3.5 implementations of several algorithms from Rosen's Discrete Mathemati
     </tr>
 </table>
     
-* Algorithms not from the Textbook:  
+* __Algorithms not from the Textbook:__  
 
 <table>
     <tr>
@@ -61,16 +61,16 @@ Python 3.5 implementations of several algorithms from Rosen's Discrete Mathemati
 
 ## II. How to Run  
 
-\*All files can be executed from the command line and python 3.5 shell.\* 
+__*All files can be executed from the command line and python 3.5 shell.*__
     
 HOW:  
     
-1. Command line (Windows):  
+1. _Command line (Windows):_ 
     1. Change to local repo clone directory.  
     2. Input '$python.exe -i FileName.py -h' [To see proper usage]  
     3. Exit python.exe with '$Ctrl+C' and run 2 again with proper usage.  
         
-2. Python 3.5 shell:  
+2. _Python 3.5 shell:_  
     
     $import os  
         
