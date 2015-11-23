@@ -1,5 +1,6 @@
 from EuclideanAlgorithm import gcd
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -17,7 +18,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: BaseExpansion.py <Z> <Z>")
 		print("Use -h for help.")
 
-def lcm(a,b): #core algorithm
+def lcm(a: int,b: int) -> int: #core algorithm
 	if type(a) is not int or type(b) is not int:
 		raise TypeError('Arguments must be integers')
 	return (a * b) // gcd(a,b)

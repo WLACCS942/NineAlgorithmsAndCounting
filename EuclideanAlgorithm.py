@@ -1,4 +1,5 @@
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -16,7 +17,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: EuclideanAlgorithm.py -p <Z> <Z>")
 		print("Use -h for help.")
 		
-def gcd(a,b): #core algorithm
+def gcd(a: int,b: int) -> int: #core algorithm
 	if type(a) is not int or type(b) is not int:
 		raise TypeError('Arguments must be integers')
 	gcd.gcd = lambda a,b: gcd.gcd(b % a,a) if a != 0 else b

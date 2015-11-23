@@ -1,4 +1,5 @@
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -16,11 +17,12 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: ExtendedEuclideanAlgorithm.py -p <a: Z> <b: Z>")
 		print("Use -h for help.")
 		
-def xgcd(a,b): #core algorithm
+def xgcd(a: int,b: int) -> int: #core algorithm
 	if type(a) is not int or type(b) is not int:
 		raise TypeError('Arguments must be integers')
 	return __xgcdBody(a,b)
-def __xgcdBody(a,b): #subroutine that is part of core algorithm
+
+def __xgcdBody(a: int,b: int) -> Tuple[int,int,int]: #subroutine that is part of core algorithm
     if a == 0:
         return (b, 0, 1)
     else:

@@ -1,6 +1,7 @@
 from Helper import *
 import math
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -18,7 +19,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: BinaryModularExponentiation.py -p <b: Z> <n: array of binary digits> <m: +Z>")
 		print("Use -h for help.")
 		
-def modExpo(b,n,m): #core algorithm
+def modExpo(b: int,n: Sequence[int],m: int) -> int: #core algorithm
 	if type(b) is not int or not isPositiveInt(m):
 		raise TypeError("1st argument must be an integer and 3rd must be a positive integer.")
 	if any(i not in (0,1) for i in n):

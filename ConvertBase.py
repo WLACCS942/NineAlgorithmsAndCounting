@@ -1,6 +1,7 @@
 from BaseExpansion import baseExpansion
 from ToDecimal import toDecimal
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -18,7 +19,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: ConvertBase.py -p <a: array of digits of base b> <base b: +Z >= 2> <new base nb: +Z >= 2>")
 		print("Use -h for help.")
 
-def convert(a,b,nb): #core algorithm
+def convert(a: Sequence[int],b: int,nb: int) -> List[int]: #core algorithm
 	return baseExpansion(toDecimal(a,b),nb) if nb != 10 else toDecimal(a,b)
 
 if __name__ == "__main__": #Invoke main when program is run

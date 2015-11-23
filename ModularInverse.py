@@ -1,5 +1,6 @@
 from ExtendedEuclideanAlgorithm import xgcd
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -17,7 +18,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: ModularInverse.py -p <a: Z> <b: +Z>")
 		print("Use -h for help.")
 
-def modinv(a,m): #core algorithm
+def modinv(a: int,m: int) -> int: #core algorithm
 	if type(a) is not int or type(m) is not int:
 		raise TypeError('Arguments must be integers')
 	g,x,y = xgcd(a,m)

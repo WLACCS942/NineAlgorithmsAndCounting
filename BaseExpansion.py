@@ -1,4 +1,5 @@
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -16,7 +17,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: BaseExpansion.py -p <n: +Z> <base: +Z > 1>>")
 		print("Use -h for help.")
 		
-def baseExpansion(n, base): #core algorithm
+def baseExpansion(n: int, base: int) -> List[int]: #core algorithm
 	if type(n) is not int or type(base) is not int or n < 0 or base < 0:
 		raise Exception('Arguments must be positive integers')
 	expansion = []

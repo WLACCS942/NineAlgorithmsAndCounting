@@ -1,6 +1,7 @@
 from Helper import matchNumberArraySizes
 import math
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -11,16 +12,16 @@ def main(): #main function that takes in command line arguments and passes them 
 					raise getopt.GetoptError('')
 				print("RESULT:",add([int(i) for i in (args[0].strip('[]')).split(',')],[int(i) for i in (args[1].strip('[]')).split(',')]))
 			elif(opt[0] == '-h'):
-				print("usage: BinaryAddition.py -p <a: array of binary digits> <b: array of binary digits>")
+				print("usage: BinaryAddition.py -p <a: sequence of binary digits> <b: sequence of binary digits>")
 				print("-p: print output. Arguments MUST come after this switch.")
 				print("-h: help")
 	except (getopt.GetoptError, ValueError) as e:
-		print("Error, usage is: BinaryAddition.py -p <a: array of binary digits> <b: array of binary digits>")
+		print("Error, usage is: BinaryAddition.py -p <a: sequence of binary digits> <b: sequence of binary digits>")
 		print("Use -h for help.")
 		
-def add(a,b): #core algorithm
+def add(a: Sequence[int],b: Sequence[int]) -> List[int]: #core algorithm
 	if any(i not in (0,1) for i in a) or any(i not in (0,1) for i in b):
-		raise ValueError("Arguments must be binary arrays.")
+		raise ValueError("Arguments must be a sequence of binary digits.")
 	a,b,length = matchNumberArraySizes(a,b)
 	carry = 0
 	s = [0] * length
