@@ -1,4 +1,5 @@
 import sys, getopt
+from typing import *
 
 def main(): #main function that takes in command line arguments and passes them to core algorithm
 	try:
@@ -16,7 +17,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: Fibonacci.py -p <n: +Z >= 2>")
 		print("Use -h for help.")
 
-def fib(n): #core algorithm. Note that this differs from the textbook version, because the textbook version is WAY too slow.
+def fib(n: int) -> int: #core algorithm. Note that this differs from the textbook version, because the textbook version is WAY too slow.
 	if type(n) is not int or n < 2: 
 		raise TypeError('Argument must be an integer greater or equal to 2')
 	fib = lambda a,b,n: a if n == 0 else fib(b,b+a,n-1)
