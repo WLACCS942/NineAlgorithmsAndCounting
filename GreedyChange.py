@@ -16,7 +16,7 @@ def main(): #main function that takes in command line arguments and passes them 
 				print("-h: help")
 	except (getopt.GetoptError, ValueError):
 		print("Error, usage is: GreedyChange.py -p <sequence of strictly descending +Z> <n: ^-Z>")
-def greedyChange(c: Sequence[int],n: int) -> List[int]:
+def greedyChange(c: Sequence[int],n: int) -> List[int]: #core algorithm.
 	if any(not isPositiveInt(i) for i in c) or isNegativeInt(n):
 		raise TypeError("Coin array must have positive integers and n must be a non-negative integer.")
 	if not isStrictDecreasing(c):
@@ -28,5 +28,6 @@ def greedyChange(c: Sequence[int],n: int) -> List[int]:
 			d[i] += 1
 			n -= c[i]
 	return d
-if __name__ == "__main__":
+
+if __name__ == "__main__": #Invoke main when program is run
     main()
