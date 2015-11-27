@@ -20,7 +20,7 @@ def greedyChange(c: Sequence[int],n: int) -> List[int]: #core algorithm.
 	if any(not isPositiveInt(i) for i in c) or isNegativeInt(n):
 		raise TypeError("Coin array must have positive integers and n must be a non-negative integer.")
 	if not isStrictDecreasing(c):
-		raise ValueError("Coin denomination sequence must be strictly increasing.")
+		raise ValueError("Coin denomination sequence must be strictly decreasing.")
 	r = len(c)
 	d = [0] * r
 	for i in range(0,r):
