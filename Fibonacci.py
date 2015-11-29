@@ -17,10 +17,19 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: Fibonacci.py -p <n: +Z >= 2>")
 		print("Use -h for help.")
 
-def fib(n: int) -> int: #core algorithm. Note that this differs from the textbook version, because the textbook version is WAY too slow.
+def bet(func): #wrapper that produces tail cail optimization through y-combinator. From Baruchel, https://stackoverflow.com/questions/13591970/does-python-optimize-tail-recursion
+    b = (lambda f: (lambda x: x(x))(lambda y: f(lambda *args: lambda: y(y)(*args))))(func)
+    def wrapper(*args):
+        out = b(*args)
+        while callable(out):
+            out = out()
+        return out
+    return wrapper
+
+def fib(n: int) -> int: #core algorithm. Same algorithm from before new bet() function was added.
 	if type(n) is not int or n < 2: 
 		raise TypeError('Argument must be an integer greater or equal to 2')
-	fib = lambda a,b,n: a if n == 0 else fib(b,b+a,n-1)
+	fib = bet(lambda f: lambda a,b,n: a if n == 0 else f(b,b+a,n-1))
 	return fib(0,1,n)
 
 if __name__ == "__main__": #Invoke main when program is run
