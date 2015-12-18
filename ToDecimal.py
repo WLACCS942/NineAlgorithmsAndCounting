@@ -17,7 +17,7 @@ def main(): #main function that takes in command line arguments and passes them 
 		print("Error, usage is: ToDecimal.py -p <a: sequence of digits of base b> <base b: +Z >= 2>")
 		print("Use -h for help.")
 
-def toDecimal(a: Sequence[int],b: int) -> int: #core algorithm. Note that this differs from the textbook version, because the textbook version is WAY too slow.
+def toDecimal(a: Sequence[int],b: int) -> int: #core algorithm.
 	if type(b) is not int or b < 2:
 		raise TypeError('2nd argument must be +Z => 2.')
 	if any(i // b != 0 for i in a): 
