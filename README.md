@@ -32,7 +32,7 @@ Python 3.5 implementations of several algorithms from __Discrete Mathematics and
         <td>EuclideanAlgorithm.py</td> 
     </tr>
     <tr>
-        <td>A Recursive Algorithm for Fibonacci Numbers (Algorithm 5.7, pg. 365)</td>
+        <td>A Recursive Algorithm for Fibonacci Numbers (Algorithm 5.4.7, pg. 365)</td>
         <td>Fibonacci.py</td>
     </tr>
 </table>
